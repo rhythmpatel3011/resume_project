@@ -1,0 +1,39 @@
+{% extends 'core/base.html' %} {% load static %} {% block content %}
+<div class="text-center mt-5">
+  <img
+    src=" {% static 'core/images/pic1.jpg' %}"
+    alt="ProfilePic"
+    class="img-thumbnail"
+    width="250px"
+    height="150px"
+  />
+</div>
+<div><h1 class="font-weight-bold text-white mt-5 myfont">Hello,</h1></div>
+    
+    
+      <p class='text-white mx-5 text-justify' style ="line-height:2rem;">
+        I’m passionate about everything
+that goes into making websites
+work well and look beautiful. The
+web is my passion because it’s
+where I can find the most exciting
+projects to work on. It’s also where I
+get to express my creativity in ways
+that are hard to find elsewhere.
+      </p>
+    </div>
+  </div>
+
+  <div class='text-center'>
+    <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">
+      Hire me
+    </a>
+    <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">
+      Contact
+    </a>
+  </div>
+  </div>
+  
+  
+</div>
+{% endblock content %}

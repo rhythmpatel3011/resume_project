@@ -1,0 +1,37 @@
+.myfont
+{
+    font-family: 'Satisfy', cursive;
+}
+
+html,body
+{
+    height: 100%;
+}
+.container-fluid
+{
+    min-height: 100%;
+}
+
+/*service icon color*/
+.icolo
+{
+    color: chartreuse;
+}
+.ss-colo
+{
+    color: silver;
+}
+a.nav-link
+{
+    color: whitesmoke;
+}
+a.nav-link:hover
+{
+    color: black;
+    background-color: darkgoldenrod;
+}
+a.nav-link.active
+{
+    color: black;
+    background-color: darkgoldenrod;
+}
